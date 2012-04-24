@@ -1,0 +1,64 @@
+body {
+padding-top: 0px;
+padding-bottom: 40px;
+}
+
+
+/*************************** Pictures CSS **************************/
+#stack-show {
+float: left;
+height: 400px;
+margin-top: 25px;
+position: relative;
+width: 375px;
+}
+
+.en #stack {
+height: 405px;
+}
+
+#stack {
+float: left;
+}
+
+ol, ul {
+list-style: none;
+}
+
+#stack-show li.photo-card:nth-of-type(2n+1) {
+top: 2px;
+}
+
+#stack-show li.photo-card:nth-of-type(3n+1) {
+-webkit-transform: rotate(-5deg);
+-moz-transform: rotate(-5deg);
+transform: rotate(-5deg);
+}
+
+#stack-show li.photo-card {
+background: #F5F4F3;
+border: 1px solid #DDDurl(0/);
+box-shadow: 0 2px 3px rgba(0,0,0,.25);
+-moz-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+filter: progid:DXImageTransform.Microsoft.Shadow(Direction=180,Strength=4,Color='#cccccc');
+height: auto;
+left: -900px;
+margin: 0 22px;
+padding-bottom: 7px;
+position: absolute;
+width: 367px;
+}
+
+.handwritten{color:#000;font-family:Arial, sans-serif;font-style:italic}.en .handwritten{font-family:'LazyDogRegular', Arial, sans-serif;font-style:normal}.ja .handwritten,.ko .handwritten{font-family:sans-serif;font-style:normal}
+
+.call-to-action p{
+  line-height:24px;
+  font-size:16px;
+}
+
+.start-search-button{
+  padding:20px;
+  font-size:20px;
+  
+}
