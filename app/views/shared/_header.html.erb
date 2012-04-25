@@ -1,30 +1,25 @@
 <div class="navbar navbar-fixed-top" style="margin-top:-35px;">
 	<div class="navbar-inner">
 		<div class="container">
-
-
-		<%#= link_to "Hackstar Academy", "#", :class => "brand", :style => "font-family: 'Voces', cursive; margin-top:100px;" %>
-
 			<div class="nav-collapse">
-				<ul class="nav">
-				</ul>
-
 				<ul class="nav pull-right">
 					<li class="divider-vertical"></li>
 				</ul>
-				<%# end %>
 			</div>
-		</div><!--/.nav-collapse -->
-		
+		</div>
 	</div>
-	
 </div>
-
-<ul class="nav nav-pills" style="margin-bottom:-30px; margin-top:20px; margin-right:40px; float:right;">
-  <li>
+<ul class="nav nav-pills nav-position">
+  <li class="active">
     <%= link_to "Home", pages_home_path %>
   </li>
-  <li><%= link_to "Program", pages_about_path %></li>
-	<li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dFNKNnItN3l6cEN0SmFKZVdUZEdKX2c6MQ#gid=0" target="_blank">Apply</a></li>
-  <li><%#= link_to "Testimonials", pages_testimonials_path %></li>
+  <li class="active">
+		<%= link_to "Program", pages_about_path %>
+	</li>
+  <li class="active">
+		<%#= link_to "Testimonials", pages_testimonials_path %>
+	</li>
+	<li class="active">
+		<a href="https://docs.google.com/spreadsheet/viewform?formkey=dFNKNnItN3l6cEN0SmFKZVdUZEdKX2c6MQ#gid=0" target="_blank">Apply</a>
+	</li>
 </ul>
