@@ -6,7 +6,7 @@ padding-bottom: 40px;
 body.home {
 padding-top: 0px;
 padding-bottom: 40px;
-background: url('../assets/background-home.png') center 0px no-repeat;
+background: url('../assets/home-bg-2.png') center 0px no-repeat;
 }
 
 .bs-icon {
@@ -32,13 +32,13 @@ opacity: .8;
 }
 
 #column-1 {
-  padding-top:3px;
+  padding-top:10px;
   margin-top:-66px;
   margin-left:-15px;
 }
 
 #column-3 {
-  padding-top:2px;
+  padding-top:11px;
   margin-top:-66px;
   margin-left:0px;
 }
