@@ -49,6 +49,18 @@ opacity: .8;
   top: 0px;
 }
 
+#hackstar-share-fb {
+  float: right;
+  margin-top:-38px; 
+}
+
+#hackstar-share-twitter {
+  float: right;
+  margin-right:-30px;
+  margin-top:-29px; 
+}
+
+
 .nav-pills > .active > a, .nav-pills > .active > a:hover {
 color: white;
 background-color: #333;

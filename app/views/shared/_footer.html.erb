@@ -1,6 +1,27 @@
 <footer class="footer" style="margin-right:42px; margin-left:42px;">
 	<hr>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=110202509104041";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<p>&#169; Hackstar Academy 2012</p>
-	<p class="pull-right"><a href="#"></a></p>
+	</div>	
+	<div id="hackstar-share-twitter">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.hackstaracademy.com" data-text="Want to learn how to code? Pursue your passion and become a software developer in 10 weeks." data-via="HackstarAcademy">Tweet</a>
+	</p>	
+	</div>
+	
+	
+	<div id="hackstar-share-fb">
+	<p>
+	<div class="fb-like" data-href="http://www.hackstaracademy.com" data-send="false" data-layout="button_count" data-show-faces="true"></div>
+	</p>
+	<p>
+	
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		<%#= debug(params) if Rails.env.development? %> 	
 </footer>
