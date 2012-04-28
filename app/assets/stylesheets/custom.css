@@ -23,7 +23,7 @@ opacity: .8;
   font-size:28px;
   padding:15px;
   margin-bottom:40px; 
-  margin-top:20px
+  margin-top:2px
 }
 
 .content-home-check {
@@ -58,6 +58,11 @@ opacity: .8;
   float: right;
   margin-right:-30px;
   margin-top:-29px; 
+}
+
+#small-btn-font{
+  font-size:14px;
+  line-height:10px;
 }
 
 
