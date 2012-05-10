@@ -9,6 +9,10 @@ padding-bottom: 40px;
 background: url('../assets/home-bg-2.png') center 0px no-repeat;
 }
 
+.label-home{
+  margin-top:-100px;
+}
+
 .bs-icon {
 float: left;
 margin: 7px 10px 0 0;
@@ -69,6 +73,26 @@ opacity: .8;
 .nav-pills > .active > a, .nav-pills > .active > a:hover {
 color: white;
 background-color: #333;
+}
+
+.about-buttons {
+  border-style:solid;
+  border-color:red;
+  width:100px;
+  height:30px;
+  position:absolute;
+  left:720px;
+}
+
+.thumbnail .testimonial-photo {
+  float:left;
+  margin: 15px;
+}
+
+.thumbnail .testimonial-photo-special {
+  float:left;
+  margin: 15px;
+  width:110px;
 }
 /*************************** Pictures CSS **************************/
 #stack-show {
