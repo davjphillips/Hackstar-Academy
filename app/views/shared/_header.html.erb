@@ -1,25 +1,38 @@
 <div class="navbar navbar-fixed-top" style="margin-top:-35px;">
+	
 	<div class="navbar-inner">
+		
 		<div class="container">
+			
 			<div class="nav-collapse">
+				
 				<ul class="nav pull-right">
+					
 					<li class="divider-vertical"></li>
 				</ul>
 			</div>
+			
 		</div>
+		<ul class="nav nav-pills nav-position">
+		  <li class="active">
+		    <%= link_to "Home", pages_home_path %>
+		  </li>
+		  <li class="active">
+				<%= link_to "About Us", pages_about_path %>
+			</li>
+			<li class="active">
+				<%= link_to "FAQ", pages_faq_path %>
+			</li>
+		  <li class="active">
+				<%= link_to "Testimonials", pages_testimonials_path %>
+			</li>
+			<li class="active">
+		    <a href="http://hackstaracademy.tumblr.com">Blog</a>
+		  </li>
+			<li class="active">
+				<a href="http://bit.ly/Ic4s8Y" target="_blank">Apply</a>
+			</li>
+		</ul>
 	</div>
 </div>
-<ul class="nav nav-pills nav-position">
-  <li class="active">
-    <%= link_to "Home", pages_home_path %>
-  </li>
-  <li class="active">
-		<%= link_to "About", pages_about_path %>
-	</li>
-  <li class="active">
-		<%= link_to "Testimonials", pages_testimonials_path %>
-	</li>
-	<li class="active">
-		<a href="http://bit.ly/Ic4s8Y" target="_blank">Apply</a>
-	</li>
-</ul>
+
