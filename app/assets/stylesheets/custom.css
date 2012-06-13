@@ -121,7 +121,11 @@ background-color: #333;
   width:110px;
 }
 
-
+.role {
+float: right;
+color: 
+#999;
+}
 
 /*** HNEW ***/
 
@@ -147,6 +151,13 @@ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
 .home-testimonial {
   margin-bottom:20px;
 }
+
+
+.date {
+margin-left: 10px;
+margin-bottom: .5em;
+}
+
 /*************************** Pictures CSS **************************/
 #stack-show {
 float: left;

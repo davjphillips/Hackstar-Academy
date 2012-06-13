@@ -1,6 +1,10 @@
 HackstarAcademy::Application.routes.draw do
   get "pages/home"
 
+  get "pages/home_test"
+  
+  get "pages/dates"
+  
   get "pages/testimonials"
 
   get "pages/about"
